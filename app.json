@@ -1,0 +1,13 @@
+{
+  "name": "social-butterfly-docker",
+  "description": "Pintrest style app configured for docker to be deployed to Heroku",
+  "image": "heroku/ruby",
+  "repository": "https://git.heroku.com/social-butterfly-docker",
+  "keywords": [
+    "ruby",
+    "rails"
+  ],
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
