@@ -16,6 +16,12 @@ development:
 test:
   <<: *default
   database: social-butterfly-docker_test
+
+production:
+  <<: *default
+  database: social-butterfly-docker_production
+  username: social-butterfly-docker
+  password: <%= ENV['SOCIAL-BUTTERFLY-DOCKER_DATABASE_PASSWORD'] %>
 # SQLite version 3.x
 #   gem install sqlite3
 #
